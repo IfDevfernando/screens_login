@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* mobile first */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+} 
+p{
+    padding-top: 10px;
+   
+    
+}
+p#camp{
+   
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 10px;
+}
+span.material-symbols-outlined{
+    color: white;
+   
+    font-size: 1.8em;
+    width: 35px;
+    padding: 2px;
+    
+}
+p#camp >input{
+    padding: 10px;
+    border-radius: 10px;
+   
+    height: 100%;
+    
+    
+    
+}
+
+input#sub{
+    display: block; 
+    width: 100%;
+    height: 40px;
+    border: none ;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-size: 1.6em;
+   
+    
+
+}
+input#sub:hover{
+    background-color: #1198f9c7;
+    
+}
+p > a{
+    cursor: pointer;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../picture/pexels-adrien-olichon-2387793.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.425);
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    transition-timing-function: ease;
+    transition: width .5s, heigth .5s;  
+}
+section#login > div#picture{
+    background: rgba(0, 0, 0, 0.541) url(../picture/pexels-pixabay-247676.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    display: block;
+}
+section#login > div#form{
+    display: block;
+    padding: 10px;
+}
