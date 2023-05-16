@@ -14,31 +14,19 @@ h1{
 } 
 p{
     padding-top: 10px;
-   
     
 }
-p#camp{
-   
-    padding: 10px;
-    margin: 5px 0px;
-    border-radius: 10px;
-}
+
 span.material-symbols-outlined{
     color: white;
-   
     font-size: 1.8em;
-    width: 35px;
     padding: 2px;
     
 }
 p#camp >input{
     padding: 10px;
     border-radius: 10px;
-   
     height: 100%;
-    
-    
-    
 }
 
 input#sub{
